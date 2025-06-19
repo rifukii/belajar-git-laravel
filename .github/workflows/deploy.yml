@@ -3,7 +3,7 @@ name: FTP Deploy
 on:
   push:
     branches:
-      - main  # atau master sesuai branch kamu
+      - main  # atau master sesuai branch yang dibuat
 
 jobs:
   ftp-deploy:
