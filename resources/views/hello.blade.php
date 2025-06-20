@@ -68,7 +68,7 @@
         }).addTo(map);
 
         // Data marker dari Laravel
-        var fasums = @json($fasums);
+        var fasums = @json($fasums->items());
 
         // Tambahkan marker ke peta
         fasums.forEach(function(fasum) {
