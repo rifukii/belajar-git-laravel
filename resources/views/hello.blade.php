@@ -7,6 +7,9 @@
     
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <style>
         #map {
             height: 400px;
@@ -21,6 +24,7 @@
             border: 1px solid #ccc;
         }
     </style>
+    
 </head>
 <body>
 
@@ -53,7 +57,7 @@
 
         <!-- Pagination Links -->
         <div class="mt-3">
-            {{ $fasums->links() }}
+           {{ $fasums->links('pagination::bootstrap-5') }}
         </div>
 
     <!-- Leaflet JS -->
