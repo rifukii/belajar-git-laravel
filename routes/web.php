@@ -8,10 +8,6 @@ use App\Models\Fasum;
 //});
 
 Route::get('/', function () {
-    $fasums = Fasum::all();
+    $fasums = Fasum::paginate(10);
     return view('hello', compact('fasums'));
-});
-
-Route::get('/hello', function () {
-    return view('hello');
 });
