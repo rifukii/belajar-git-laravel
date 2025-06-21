@@ -28,7 +28,7 @@
 </head>
 <body>
 
-    <h2>Peta Fasilitas Umum</h2>
+    <h2>Peta Fasilitas Umum Kabupaten Sumedang</h2>
     <div id="map"></div>
 
     <h2>Daftar Fasum</h2>
